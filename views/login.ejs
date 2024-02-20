@@ -1,0 +1,24 @@
+<%- include('header') %>
+
+<div class="formlogin" >
+<form action="/login" method="POST">
+  <div class="mb-3">
+    <center><img class="center" src="/images/key.png" alt="" width="70px"></center>
+  </div>
+  <div class="mb-3">
+    <label  class="form-label">Email address</label>
+    <input type="email" class="form-control" name="username"  aria-describedby="emailHelp">
+  </div>
+  <div class="mb-3">
+    <label  class="form-label">Password</label>
+    <input type="password" class="form-control" >
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" name="password" for="exampleCheck1">remember</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+
+<%- include('footer') %>

@@ -1,0 +1,18 @@
+
+.homebox {
+  background-color: rgb(237, 237, 237);
+  margin: 10rem 35rem 0 35rem;
+  padding: 5rem;
+}
+
+.bigtext {
+  font-size: 2rem;
+  padding: 10px 0 10px 0;
+}
+
+.formlogin {
+  background-color: rgb(237, 237, 237);
+  margin: 5rem 35rem 0 35rem;
+  padding: 5rem;
+}
+
